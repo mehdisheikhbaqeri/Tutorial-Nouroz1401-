@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="basket">
+    <header>
+        <h1>Sports Cothing</h1>
+        <article class="basket-icon">
+            <img src="./pic/basket-icon.webp" alt="basket-icon">
+        </article>
+    </header>
+    <ul class="product">
+        <li><img src="./pic/yellow.jpg" alt="">
+            <h2>Yellow T-shert</h2>
+            <button>Add to basket</button>
+        </li>
+        <li><img src="./pic/blue.png" alt="">
+            <h2>Blue T-shert</h2>
+            <button>Add to basket</button>
+        </li>
+        <li><img src="./pic/pink.jpg" alt="">
+            <h2>Pink T-sher</h2>
+            <button>Add to basket</button>
+        </li>
+        <li><img src="./pic/yellow.jpg" alt="">
+            <h2>Yellow T-shert</h2>
+            <button>Add to basket</button>
+        </li>
+        <li><img src="./pic/blue.png" alt="">
+            <h2>Blue T-shert</h2>
+            <button>Add to basket</button>
+        </li>
+        <li><img src="./pic/pink.jpg" alt="">
+            <h2>Pink T-sher</h2>
+            <button>Add to basket</button>
+        </li>
+    </ul>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script>
+        $("button").on("click", function () {
+            $(this).closest("li").find("img").clone().addClass("zoom")
+                .appendTo("body"); setTimeout(function () {
+                    $(".zoom").remove();
+                }, 1000)
+        })
+    </script>
+</body>
+
+</html>
