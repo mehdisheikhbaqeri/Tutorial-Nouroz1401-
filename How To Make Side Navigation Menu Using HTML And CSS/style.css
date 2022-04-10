@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: #e2e9f7;
+}
+
+.slide-nav {
+  width: 250px;
+  height: 100%;
+  background-color: #0d74f5;
+  display: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 30px;
+}
+
+.nav-links {
+  list-style: none;
+  position: relative;
+}
+
+.nav-links li {
+  padding: 10px 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 14px;
+}
