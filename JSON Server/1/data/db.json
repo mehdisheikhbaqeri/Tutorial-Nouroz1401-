@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "welcom to the new blog",
+      "body": "Lorem Mazlom dolor sit amet, consectetur adipiscing elit. Ut tincidunt felis sed sem imperdiet, id dapibus libero lobortis. Duis nec tempor turpis. Aliquam vestibulum turpis velit, vel dapibus elit fermentum vel. Phasellus in felis nec nunc mattis auctor.",
+      "likes": 7
+    },
+    {
+      "id": 2,
+      "title": "How to be a Mzalom",
+      "body": "Lorem Mazlom dolor sit amet, consectetur adipiscing elit. Ut tincidunt felis sed sem imperdiet, id dapibus libero lobortis. Duis nec tempor turpis. Aliquam vestibulum turpis velit, vel dapibus elit fermentum vel. Phasellus in felis nec nunc mattis auctor.",
+      "likes": 23
+    },
+    {
+      "id": 3,
+      "title": "New vue course coming soon!!",
+      "body": "Lorem Mazlom dolor sit amet, consectetur adipiscing elit. Ut tincidunt felis sed sem imperdiet, id dapibus libero lobortis. Duis nec tempor turpis. Aliquam vestibulum turpis velit, vel dapibus elit fermentum vel. Phasellus in felis nec nunc mattis auctor.",
+      "likes": 10
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "Do you prefer Vue or React?",
+      "answerA": "Vue",
+      "answerB": "React"
+    }
+  ]
+}
